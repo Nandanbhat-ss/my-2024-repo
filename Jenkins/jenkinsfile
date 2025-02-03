@@ -17,5 +17,12 @@ pipeline {
                 echo 'Deploying.ww..'
             }
         }
+        stage('sumne haage') {
+            steps { 
+                sh '''
+                    lscpu
+                '''
+
+            }}
     }
 }
